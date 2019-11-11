@@ -55,9 +55,9 @@ for num in range(49):
   if(num<10):
       continue;
   logging.info("正在采集第"+str(num))
-  logging.info("URL "+'http://javforme.me/studio/asian-sex-diary/page-'+str(num))
+  logging.info("URL "+'http://javforme.me/studio/caribbeancom/page-'+str(num))
 
-  r = requests.get('http://javforme.me/studio/asian-sex-diary/page-'+str(num))
+  r = requests.get('http://javforme.me/studio/caribbeancom/page-'+str(num))
   pattern = r'<a href="/mo(.*?)"'
   match = re.findall(pattern, r.text)
   for _dict in match:
